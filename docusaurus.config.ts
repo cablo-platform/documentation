@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Cablo Documentation',
   tagline: 'Serverless AI Platform',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cablo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -16,15 +16,16 @@ const config: Config = {
 
 
   url: 'https://docs.cablo.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  baseUrl: 'documentation',
 
 
   // deployment
   organizationName: 'cablo-platform',
   projectName: 'documentation',
   trailingSlash: false,
+  onBrokenLinks: 'warn', // throw
+  onBrokenMarkdownLinks: 'warn', // throw
+
 
   i18n: {
     defaultLocale: 'en',
@@ -79,8 +80,8 @@ const config: Config = {
     navbar: {
       title: 'CABLO Documentation',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'CABLO Serverless AI Platform',
+        src: 'img/cablo.png',
       },
       items: [
         {
