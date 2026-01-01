@@ -35,7 +35,7 @@ const sidebars: SidebarsConfig = {
         description: 'Learn about the most important Docusaurus concepts!',
         slug: '/category/docusaurus-guides',
         keywords: ['guides'],
-        image: '/img/docusaurus.png',
+        image: '/img/cablo.png',
       },
 
       items: [
