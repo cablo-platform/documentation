@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.cablo.io/documentation/blog"/>
     <subtitle>Cablo Documentation Blog</subtitle>
-    <icon>https://docs.cablo.io/documentation/img/favicon.ico</icon>
+    <icon>https://docs.cablo.io/documentation/img/cablo.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://docs.cablo.io/documentation/blog/welcome</id>
